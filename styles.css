@@ -1,1 +1,111 @@
-/* Write your CSS here! */
+#mainHeading{
+    color: red;
+    text-align: center;
+
+}
+p#testP.funParagraph{
+    color: green;
+}
+body {
+    width: 100%;
+    max-width: 1024px;
+    margin: 8px;
+    background-color: rgb(212, 197, 197);
+    font-size: 80%;
+    }
+    
+    header,
+    main,
+    footer {
+    background-color: #ddd;
+    font-size: 1.6em;
+    color: red;
+    }
+    
+    header {
+    padding: 1.875em 0;
+    color: red;
+    }
+    
+    header h1 {
+    text-align: center;
+    }
+    
+    h1, h2, h3 {
+    margin: 8px;
+    color: red;
+    }
+    
+    h1 {
+    font-size: 2.5em;
+    }
+    
+    main h2 {
+    padding: 0.625em 0 0.625em 0.625em;
+    }
+    
+    section {
+    margin: 8px;
+    }
+    
+    section:first-child {
+    margin-top: 8px;
+    }
+    
+    section:last-child {
+    margin-bottom: 8px;
+    }
+    
+    nav ul {
+    text-align: center;
+    padding: 0;
+    }
+    
+    nav ul li {
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 0.75em;
+    }
+    
+    p {
+    padding: 1.25em;
+    color:green;
+    }
+    
+    figure {
+    margin:8px;
+    padding: 0;
+    text-align: center;
+    }
+    
+    figcaption {
+    font-style: italic;
+    }
+    
+    footer {
+    text-align: center;
+    padding: 3em;
+    }
+    
+    footer p {
+    display: inline-block;
+    }
+    
+    img {
+    width: 100%;
+    max-width: 100%;
+    }
+    
+    @media screen and (max-width: 680px) {
+    nav ul li {
+    margin: 8px;
+    display: block;
+    font-size: 1em;
+    }
+    body {
+    font-size: 50%;
+    }
+    id{
+        color: red;
+    }
+    }
