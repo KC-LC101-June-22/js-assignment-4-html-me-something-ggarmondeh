@@ -59,6 +59,7 @@ body {
     
     p {
     padding: 1.25em;
+    color:green;
     }
     
     figure {
@@ -93,5 +94,8 @@ body {
     }
     body {
     font-size: 50%;
+    }
+    id{
+        color: red;
     }
     }
