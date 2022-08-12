@@ -1,3 +1,11 @@
+#mainHeading{
+    color: red;
+    text-align: center;
+
+}
+p#testP.funParagraph{
+    color: green;
+}
 body {
     width: 100%;
     max-width: 1024px;
@@ -24,7 +32,7 @@ body {
     }
     
     h1, h2, h3 {
-    margin: 0;
+    margin: 8px;
     color: red;
     }
     
@@ -37,15 +45,15 @@ body {
     }
     
     section {
-    margin: 1.875em 0;
+    margin: 8px;
     }
     
     section:first-child {
-    margin-top: 0;
+    margin-top: 8px;
     }
     
     section:last-child {
-    margin-bottom: 0;
+    margin-bottom: 8px;
     }
     
     nav ul {
@@ -55,7 +63,7 @@ body {
     
     nav ul li {
     display: inline-block;
-    margin-right: 1em;
+    margin-right: 8px;
     font-size: 0.75em;
     }
     
@@ -65,7 +73,7 @@ body {
     }
     
     figure {
-    margin: 0;
+    margin:8px;
     padding: 0;
     text-align: center;
     }
@@ -90,7 +98,7 @@ body {
     
     @media screen and (max-width: 680px) {
     nav ul li {
-    margin: 1em 0;
+    margin: 8px;
     display: block;
     font-size: 1em;
     }
